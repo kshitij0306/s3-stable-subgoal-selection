@@ -1,0 +1,21 @@
+# Core libraries
+numpy>=1.18
+matplotlib
+scipy
+pandas
+
+# Gym and Mujoco
+gym @ git+https://github.com/openai-archive/gym.git@0.20.0
+mujoco_py==2.1.2.14
+cython==0.29.37
+# Optional: Gymnasium-based Mujoco tasks
+gymnasium[mujoco]
+
+# Torch (latest compatible version with Python 3.10/3.9)
+torch==1.13.1
+torchvision==0.14.1
+torchaudio==0.13.1
+
+# Logging and utilities
+tensorboard
+tqdm
